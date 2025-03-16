@@ -1,6 +1,6 @@
 import express from "express";
 import shortid from "shortid";
-import Url from "../models/Url.js";
+import Url from "../models/url.js";
 import { redisClient } from "../config/redisClient.js";
 
 const router = express.Router();
